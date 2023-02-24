@@ -1,6 +1,6 @@
 # QSS20FinalProject
 
-This is the beginning of the QSS 20 Final Project Repository for **Akshay Kelshiker, Edgar Ozuzun, Jeremy Rodriguez, Shawn Yoon.** The project hopes to investigate: 
+This is the beginning of the QSS 20 Final Project Repository for **Akshay Kelshiker, Edgar Ozuzun, Jeremy Rodriguez, Shawn Yoon.** The project hopes to investigate which questions in the pre-assessment that indicate a lower score in the final assessment. We plan on having 3 different models. 
 
 
 
