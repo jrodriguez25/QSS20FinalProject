@@ -10,12 +10,13 @@ Building three main models, we first want to test only bivariate association bet
 **Project Milestones/Updates:**
 
 [Milestone 1 Memo](https://www.overleaf.com/project/63e91fdcd0b1390c7f3f912b): Brainstorming a Research Question and Analyzing How to Learn From Past Projects
-Milestone 2 Issue
+
+[Milestone 2 Issue](https://google.com)
 
 **Project .ipynb Scripts:**
 
-* [QSS20_Project.ipynb](https://colab.research.google.com/drive/1OLy87ASGkwFgVeCIRoFAAfAPg2d2YWnk?usp=sharing)
+* [00_data_cleaning_analysis.ipynb](https://colab.research.google.com/drive/1OLy87ASGkwFgVeCIRoFAAfAPg2d2YWnk?usp=sharing)
 
     * **Input:** Dartmouth Medical Training Data from the START Initiative(.csv Files)
-    * **Functionality:**
-    * **Output**
+    * **Functionality:** Loads dataset, cleaning and preprocessing by dropping irrelevant rows
+    * **Output** Creates a datatable that contains the percentage correct scores by each multiple choice question
