@@ -11,7 +11,7 @@ Building three main models, we first want to test only bivariate association bet
 
 [Milestone 1 Memo](https://www.overleaf.com/project/63e91fdcd0b1390c7f3f912b): Brainstorming a Research Question and Analyzing How to Learn From Past Projects
 
-[Milestone 2 Issue](https://google.com)
+[Milestone 2 Issue](https://github.com/jrodriguez25/QSS20FinalProject/issues/1): Loaded and Cleaned the Data; Performed some Preliminary Analysis
 
 **Project .ipynb Scripts:**
 
