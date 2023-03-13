@@ -18,6 +18,8 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
 
 * [00_data_cleaning_analysis.ipynb](https://colab.research.google.com/drive/1OLy87ASGkwFgVeCIRoFAAfAPg2d2YWnk?usp=sharing)
 
-    * **Input:** Dartmouth Medical Training Data from the START Initiative(.csv Files)
-    * **Functionality:** Loads dataset, cleaning and preprocessing by dropping irrelevant rows
+    * **Input:** Dartmouth Medical Training Pre-examination .csv Data from the START Initiative.
+    * **Functionality:** 
+    * Loads dataset, cleaning and preprocessing by dropping irrelevant rows. 
+    * Creates a table of the percentage of certain questions being answered correctly by means of preliminary data analysis. 
     * **Output** Creates a datatable that contains the percentage correct scores by each multiple choice question
