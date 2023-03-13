@@ -20,6 +20,8 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
 
     * **Input:** Dartmouth Medical Training Pre-examination .csv Data from the START Initiative.
     * **Functionality:** 
-    ** Loads dataset, cleaning and preprocessing by dropping irrelevant rows. 
-    ** Creates a table of the percentage of certain questions being answered correctly by means of preliminary data analysis. 
-    * **Output** Creates a datatable that contains the percentage correct scores by each multiple choice question
+      *Loads dataset, cleaning and preprocessing by dropping irrelevant rows. 
+      *Creates a table of the percentage of certain questions being answered correctly by means of preliminary data analysis. 
+    * **Output** 
+      *[Cleaned Data](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/00_precleaned_df)
+      *[Table of Selected Questions and Percentage Correct](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/00_perc_questions_correct.png)
