@@ -18,7 +18,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
 
 * [00_data_cleaning_analysis.ipynb](https://colab.research.google.com/drive/1OLy87ASGkwFgVeCIRoFAAfAPg2d2YWnk?usp=sharing)
 
-    * **Input:** Dartmouth Medical Training Pre-examination .csv Data from the START Initiative.
+    * **Input:** [Dartmouth Medical Training Pre-examination Data](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/training%20data/Med%20student%20pre%20assessment%202.8.23.csv) from the START Initiative.
     * **Functionality:** 
       * Loads dataset, cleaning and preprocessing by dropping irrelevant rows. 
       * Creates a table of the percentage of certain questions being answered correctly by means of preliminary data analysis. 
