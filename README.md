@@ -35,7 +35,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
    * **Output:** 
       * [scores_df](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/01_scores_df.csv), a table in which the columns specify the questions and the values represent the score. The rows correspond to the same patient as in the original data table. 
      
-* [02_OLS_Regression_Visualization](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/code/02_OLS_Regression_Visualization%20%20(1).ipynb)
+* [02_OLS_Regression_Visualization](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/code/02_OLS_Regression_Visualization.ipynb)
     * **Input:**
       * Uses information from scores_df, from the code above.
     * **Functionality:**
