@@ -40,7 +40,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
       * Uses information from scores_df, from the code above.
     * **Functionality:**
       * The code runs the full regression after the other scripts provided the code to input the graded questions. It creates the dummy variables and uses them to run the OLS regression, and it visualizes three of the variables in a scatterplot.
-    * **Output:*
+    * **Output:** 
       * [OLS Regression of Q39](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_1.png), OLS regression on Question 39 of the pre-assessment.
       * [OLS Regression of Q34](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_2.png), OLS regression on Question 34 of the pre-assessment.
       * [OLS Regression of 'Previous Training' Variable on Score](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_3.png), OLS regression on the Previous Training Variable on Score
