@@ -31,7 +31,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
     * **Input:** Precleaned data from the 00_script
     * **Functionality:**
       * Creates a dictionary that contains the Question as key (for example, question 6 is Q6) and the value(s) is/are the correct answer(s). Q6 has one correct answer, so the 'answer' value is of length one, whereas Q34 has an 'answer' value of length 3.
-      * Utilizes a function, "regrading," that creates a dataframe of the point values for each student for each question by comparing the text string from the response to the dictionary of correct answers. An additional benefit is that this awards partial credit for partially correct answers, because the [Answer Key](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/training%20data/training_data/Answer%20key.docx) did not specify how 'select all that apply' questions were graded. 
+      * Utilizes a function, "regrading," that creates a dataframe of the point values for each student for each question by comparing the text string from the response to the dictionary of correct answers. An additional benefit is that this awards partial credit for partially correct answers, because the [Answer Key](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/training%20data/Answer%20key.docx) did not specify how 'select all that apply' questions were graded. 
    * **Output:** 
       * [scores_df](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/01_scores_df.csv), a table in which the columns specify the questions and the values represent the score. The rows correspond to the same patient as in the original data table. 
      
