@@ -22,7 +22,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
     * **Functionality:** 
       * Loads dataset, cleaning and preprocessing by dropping irrelevant rows. 
       * Creates a table of the percentage of certain questions being answered correctly by means of preliminary data analysis. 
-    * **Output** 
+    * **Output:** 
       * [Cleaned Data](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/00_precleaned_df), the cleaned dataframe
       * [Table of Selected Questions and Percentage Correct](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/00_perc_questions_correct.png), the table of percentage of correct answers. 
 
@@ -32,5 +32,17 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
     * **Functionality:**
       * Creates a dictionary that contains the Question as key (for example, question 6 is Q6) and the value(s) is/are the correct answer(s). Q6 has one correct answer, so the 'answer' value is of length one, whereas Q34 has an 'answer' value of length 3.
       * Utilizes a function, "regrading," that creates a dataframe of the point values for each student for each question by comparing the text string from the response to the dictionary of correct answers. An additional benefit is that this awards partial credit for partially correct answers, because the [Answer Key](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/training%20data/training_data/Answer%20key.docx) did not specify how 'select all that apply' questions were graded. 
-   * **Output** 
+   * **Output:** 
       * [scores_df](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/01_scores_df.csv), a table in which the columns specify the questions and the values represent the score. The rows correspond to the same patient as in the original data table. 
+     
+* [02_OLS_Regression_Visualization](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/code/02_OLS_Regression_Visualization%20%20(1).ipynb)
+    * **Input:**
+      * Uses information from scores_df, from the code above.
+    * **Functionality:**
+      * The code runs the full regression after the other scripts provided the code to input the graded questions. It creates the dummy variables and uses them to run the OLS regression, and it visualizes three of the variables in a scatterplot.
+    * **Output:*
+      * [OLS Regression of Q39](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_1.png), OLS regression on Question 39 of the pre-assessment.
+      * [OLS Regression of Q34](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_2.png), OLS regression on Question 34 of the pre-assessment.
+      * [OLS Regression of 'Previous Training' Variable on Score](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_Figure_3.png), OLS regression on the Previous Training Variable on Score
+      * [OLS Regression Table](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/02_OLSRegressionTable.png), table of beta values for the three models. 
+   
