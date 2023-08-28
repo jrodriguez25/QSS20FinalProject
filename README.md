@@ -12,7 +12,7 @@ To determine this, we plan on running an OLS regression of both bivariate and mu
 
 [Milestone 2 Issue](https://github.com/jrodriguez25/QSS20FinalProject/issues/1): Loaded and Cleaned the Data; Performed some Preliminary Analysis
 
-[Status Update Presentation](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/03_in_class_presentation.pdf): Brief presentation highlighting research goals and updates as of 03-06-2023. Presented to classroom and procured constructive feedback on areas of improvement.
+[Status Update Presentation](https://github.com/jrodriguez25/QSS20FinalProject/blob/main/output/03_in_class_presentation.pdf): Brief presentation highlighting research goals and updates as of 03-06-2023. Presented to classroom and procured constructive feedback on areas of improvement
 
 **Project .ipynb Scripts:**
 
